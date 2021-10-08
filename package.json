@@ -1,0 +1,20 @@
+{
+  "name": "data__structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mandor99/DATA__STRUCTURE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mandor99/DATA__STRUCTURE/issues"
+  },
+  "homepage": "https://github.com/Mandor99/DATA__STRUCTURE#readme"
+}
