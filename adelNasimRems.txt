@@ -6,3 +6,43 @@
     b. work on sorted [] only
     c. time => o(log n)) [average & worst case] or o(1) [best case]
 }
+
+/********************************************************************/
+/*******************************************************************/
+
+** sorted algorithms => [bubble, insertion, selection, merge, radix, heap, quick, shell]
+** built in method => .sort((a, b) => a-b)
+3. bubble sort ==>> {
+    * u can extract the (min/max) element (first/last indexes)
+    * bubble sorted => check if [] sorted first
+}
+
+4.selection sort ==>> {
+    * in-place algorithm (small [])
+    * time => (n^2)
+    * space => o(1)
+}
+
+5. merge sort ==>> {
+    * time => n log(n) //in all cases
+    * space ==>> o(n)
+    * divide & conquer & recursive
+}
+
+6. quick sort ==>> {
+    * divide & conquer & recursive
+    * time ==>> n log(n) || worst => [already sorted] => o(n^2)
+    * space ==>> best ==>> o(1) if any half of[] is optimized || o(log(n)) || worst ==>> o(n)
+}
+
+7. radix sort ==>> {
+    * it's work only on numbers base(10) [ rights positive numbers => floor(abs(number)) => + positive] not binary numbers
+    * it's not a comparison sort but integer sort depends on the digits position [1s ones, 10s tens, 100s hundreds, 1000s thousands]
+    ** time ==>> o(nk) ==>> k = the length of numbers
+    ** space ==>> o(n+k)
+}
+    *u can extract the bigger ele with it (last indexes)
+    *bubble sorted => check if [] sorted first
+}
+/*****************************************************************************/
+/*****************************************************************************/
