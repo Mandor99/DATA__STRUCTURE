@@ -1,0 +1,8 @@
+1. linearSearch ==>> {
+    a. timeComplexity => o(n) [average case, worst case] or o(1) [best case] if it the first index
+}
+2. binarySearch ==>> {
+    a. divide & conquer pattern
+    b. work on sorted [] only
+    c. time => o(log n)) [average & worst case] or o(1) [best case]
+}

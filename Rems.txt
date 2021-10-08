@@ -1,0 +1,10 @@
+1. linear search ==>> {
+    ** [indexOf, includes, find, findIndex]
+    search in every index
+    o(n)
+}
+
+2. binary search ==>> {
+    * divide & conquer + sliding window
+    * need sorted []
+}
