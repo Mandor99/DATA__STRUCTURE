@@ -1,0 +1,9 @@
+1. linked list ==>> {
+    ** problem of [] =>> [
+        fixed size (limit) ==>> solution => dynamic [] (vectors) that u create a new [] with double size and copy the old [] on it || linked list
+        insert/delete timeComplexity o(n) ==>> because it changes the index of all elements
+    ]
+    * head =>> first node(element)
+    1. u create elements unit by unit in memory and link them with their refs
+    2. node ==>> element+ref of the next ele [unit]
+}
