@@ -16,3 +16,36 @@
 ** floor(log10(21388)) + 1 ==>> give u digitsCount => 4 + 1 = 5 => (21388) 5 digits.
 /********************************************************************/
 /********************************************************************/
+
+3. data structure ==>> {
+    * like google maps => need a graph not simple[]
+    * million of data => need speed => linked list not simple[]
+    * web scraping => use a tree (DOM)
+    * scheduler => priority tasks => binary heap
+    ** we implement DS as a classes to can inherit it as we can easily.
+}
+
+/**************************************************************/
+/**************************************************************/
+
+4. singly linked list ==>> {
+    * head ==>> first node 
+    * tail ==>> last node
+    * direct access is not allowed (disadvantage) => arr[5] not allowed
+    ||==>>[push, pop, shift, unshift, get, set, insert, remove, reverse]<<==||
+}
+
+** if(l) {
+    this.push(l)
+    return true
+} ===
+if(l) return !!this.val ==>> !!x means true // !!0 = false //!0 = true 
+
+/************   STACK   ***************
+
+LIFO  [last in first out] principle
+* implement with [] ==>> not good because when adding item all elements shift to the next index and all elements will be re-indexed
+* big(O) ==>> {
+    insertion => o(1)
+    removal => o(1)
+}
