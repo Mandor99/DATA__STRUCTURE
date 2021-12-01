@@ -40,3 +40,12 @@
     return true
 } ===
 if(l) return !!this.val ==>> !!x means true // !!0 = false //!0 = true 
+
+/************   STACK   ***************
+
+LIFO  [last in first out] principle
+* implement with [] ==>> not good because when adding item all elements shift to the next index and all elements will be re-indexed
+* big(O) ==>> {
+    insertion => o(1)
+    removal => o(1)
+}
